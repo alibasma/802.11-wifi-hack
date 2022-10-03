@@ -14,5 +14,3 @@ def sniffer():
     print("Si une attaque deauth ce produit vous serez signalez")
     p = scapy.sniff(iface="wlan0mon", stop_filter = DetecteurDeauth)
 
-
-
